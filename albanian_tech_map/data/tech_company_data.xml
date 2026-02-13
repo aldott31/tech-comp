@@ -1,0 +1,3107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="company_m61409080s" model="tech.company">
+            <field name="name">Rev Software</field>
+            <field name="nipt">M61409080S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">alex.pavt@gmail.com</field>
+            <field name="phone">0016505059</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52424006r" model="tech.company">
+            <field name="name">ZeroCode Software</field>
+            <field name="nipt">M52424006R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/12/2025</field>
+            <field name="email">Zajmirlici@xhaferaj.com</field>
+            <field name="phone">0672040622</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52422028o" model="tech.company">
+            <field name="name">SOFTWARE SYSTEMS</field>
+            <field name="nipt">M52422028O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/12/2025</field>
+            <field name="email">eripjetri@hotmail.com</field>
+            <field name="phone">0686947370</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52303063t" model="tech.company">
+            <field name="name">SYS GLOBAL SOFTWARE CONSULTING</field>
+            <field name="nipt">M52303063T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/11/2025</field>
+            <field name="email">albacc1@outlook.com</field>
+            <field name="phone">0090543620</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52227067h" model="tech.company">
+            <field name="name">EXTRA SOFTWARE</field>
+            <field name="nipt">M52227067H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/10/2025</field>
+            <field name="email">consulting@extrema-albania.com</field>
+            <field name="phone">0697518514</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51418039h" model="tech.company">
+            <field name="name">SQUARE SOFTWARE</field>
+            <field name="nipt">M51418039H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/02/2025</field>
+            <field name="email">info@square.al</field>
+            <field name="phone">+355696382292</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51316029k" model="tech.company">
+            <field name="name">DarkCore Technology &amp; Software</field>
+            <field name="nipt">M51316029K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/01/2025</field>
+            <field name="email">darkcoretechnology@gmail.com</field>
+            <field name="phone">0692061176</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41612037m" model="tech.company">
+            <field name="name">STANDARD SOFTWARE DEVELOPMENT</field>
+            <field name="nipt">M41612037M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/04/2024</field>
+            <field name="email">takutaku123@yahoo.co</field>
+            <field name="phone">0688522035</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41525059m" model="tech.company">
+            <field name="name">Leorò Project Software</field>
+            <field name="nipt">M41525059M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/03/2024</field>
+            <field name="email">bbrami2002@gmail.com</field>
+            <field name="phone">0694272545</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41325004a" model="tech.company">
+            <field name="name">First Software Solution</field>
+            <field name="nipt">M41325004A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/01/2024</field>
+            <field name="email">xhejson.shullani@gmail.com</field>
+            <field name="phone">0694841363</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61322008t" model="tech.company">
+            <field name="name">Digital Koka LLC</field>
+            <field name="nipt">M61322008T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/01/2026</field>
+            <field name="email">epastudioconsulting@gmail.com</field>
+            <field name="phone">096095544</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52326030u" model="tech.company">
+            <field name="name">Digital Spark</field>
+            <field name="nipt">M52326030U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">26/11/2025</field>
+            <field name="email">fnezaj96@gmail.com</field>
+            <field name="phone">0698393888</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52231011n" model="tech.company">
+            <field name="name">Z.E DIGITAL TECH</field>
+            <field name="nipt">M52231011N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">31/10/2025</field>
+            <field name="email">elsahaxhi@yahoo.com</field>
+            <field name="phone">0682000970</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52111033j" model="tech.company">
+            <field name="name">Bizzful Digital Agency</field>
+            <field name="nipt">M52111033J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/09/2025</field>
+            <field name="email">info@bizzful.com</field>
+            <field name="phone">0686179779</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52018017n" model="tech.company">
+            <field name="name">DIGITAL TECHNOLOGY INSTITUTE ALBANIA</field>
+            <field name="nipt">M52018017N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/08/2025</field>
+            <field name="email">senadaveizi@gmail.com</field>
+            <field name="phone">+355694489890</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52011032v" model="tech.company">
+            <field name="name">ALBANIAN DIGITAL SERVICES</field>
+            <field name="nipt">M52011032V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/08/2025</field>
+            <field name="email">gfc_al@yahoo.com, Ilirtafaj@gmail.com</field>
+            <field name="phone">0692037056</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52005006c" model="tech.company">
+            <field name="name">DIGITAL SOLUTION</field>
+            <field name="nipt">M52005006C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/08/2025</field>
+            <field name="email">endri_VS3@hotmail.com</field>
+            <field name="phone">0698764612</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51708007v" model="tech.company">
+            <field name="name">CLX Digital Tech</field>
+            <field name="nipt">M51708007V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">08/05/2025</field>
+            <field name="email">majlindanikolla@gmail.com</field>
+            <field name="phone">0697077780</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51527036i" model="tech.company">
+            <field name="name">DATI DIGITALI</field>
+            <field name="nipt">M51527036I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/03/2025</field>
+            <field name="email">info@optimaconsulting-al.com</field>
+            <field name="phone">0675013033</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51512009f" model="tech.company">
+            <field name="name">Digital Pulse</field>
+            <field name="nipt">M51512009F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/03/2025</field>
+            <field name="email">sergi-njesh@outlook.com</field>
+            <field name="phone">0695242775</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61321013e" model="tech.company">
+            <field name="name">Venusia web services</field>
+            <field name="nipt">M61321013E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/01/2026</field>
+            <field name="email">vasenka.rangu@gmail.com</field>
+            <field name="phone">0039333825</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52430011o" model="tech.company">
+            <field name="name">CMS.WEB</field>
+            <field name="nipt">M52430011O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/12/2025</field>
+            <field name="email">info@studiolegalealbania.com</field>
+            <field name="phone">0039351508</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51810035q" model="tech.company">
+            <field name="name">WebWise Solutions</field>
+            <field name="nipt">M51810035Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/06/2025</field>
+            <field name="email">shpresa18elezaj@gmail.com</field>
+            <field name="phone">0685491665</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51413038u" model="tech.company">
+            <field name="name">WEB HELP</field>
+            <field name="nipt">M51413038U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/02/2025</field>
+            <field name="email">webhelpshpk@outlook.com</field>
+            <field name="phone">0683030583</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42412010h" model="tech.company">
+            <field name="name">Web Platform Innovation</field>
+            <field name="nipt">M42412010H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/12/2024</field>
+            <field name="email">mauromema@icloud.com</field>
+            <field name="phone">0692214500</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42224043o" model="tech.company">
+            <field name="name">IT WEB SOLUTIONS</field>
+            <field name="nipt">M42224043O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/10/2024</field>
+            <field name="email">info@studiopustina.com</field>
+            <field name="phone">0674061144</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41630021b" model="tech.company">
+            <field name="name">Star Web</field>
+            <field name="nipt">M41630021B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/04/2024</field>
+            <field name="email">info@starwebshpk.com</field>
+            <field name="phone">0697250428</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41611022g" model="tech.company">
+            <field name="name">Soul Web Service</field>
+            <field name="nipt">M41611022G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/04/2024</field>
+            <field name="email">erjon1998@icloud.com</field>
+            <field name="phone">0694500789</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41525046e" model="tech.company">
+            <field name="name">PROFILOWEB</field>
+            <field name="nipt">M41525046E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/03/2024</field>
+            <field name="email">giacintodamianoweb@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41329011d" model="tech.company">
+            <field name="name">Callweb24</field>
+            <field name="nipt">M41329011D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">29/01/2024</field>
+            <field name="email">callweb24albania@gmail.com</field>
+            <field name="phone">0039327177</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409047a" model="tech.company">
+            <field name="name">AutoTech Components</field>
+            <field name="nipt">M61409047A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHA</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">autotech1components@gmail.com</field>
+            <field name="phone">0676799555</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409006k" model="tech.company">
+            <field name="name">42TECHAL</field>
+            <field name="nipt">M61409006K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">techal42@outlook.com</field>
+            <field name="phone">0689044437</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405032c" model="tech.company">
+            <field name="name">TechWay</field>
+            <field name="nipt">M61405032C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">alaa.merie98@gmail.com</field>
+            <field name="phone">0693942469</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61404023v" model="tech.company">
+            <field name="name">EVOX TECHNOLOGY &amp; CONSULTING</field>
+            <field name="nipt">M61404023V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/02/2026</field>
+            <field name="email">xhuliaxhufa@gmail.com</field>
+            <field name="phone">0697088130</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61403032p" model="tech.company">
+            <field name="name">VoxTech</field>
+            <field name="nipt">M61403032P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/02/2026</field>
+            <field name="email">qokaj.albert@icloud.com</field>
+            <field name="phone">0696718191</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61323034n" model="tech.company">
+            <field name="name">NeuronTech Solutions</field>
+            <field name="nipt">M61323034N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">23/01/2026</field>
+            <field name="email">genciu@gmail.com</field>
+            <field name="phone">0697584383</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61322004k" model="tech.company">
+            <field name="name">MultiTech ALBANIA</field>
+            <field name="nipt">M61322004K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/01/2026</field>
+            <field name="email">multitech.al@hotmail.com</field>
+            <field name="phone">0672045719</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61316023j" model="tech.company">
+            <field name="name">Master Sol&amp;Tech</field>
+            <field name="nipt">M61316023J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/01/2026</field>
+            <field name="email">nolti.nast@gmail.com</field>
+            <field name="phone">0674909765</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61306035f" model="tech.company">
+            <field name="name">Prime Tech</field>
+            <field name="nipt">M61306035F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/01/2026</field>
+            <field name="email">info.primetech0@gmail.com</field>
+            <field name="phone">+355674724742</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52431006g" model="tech.company">
+            <field name="name">Hub Tech</field>
+            <field name="nipt">M52431006G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">31/12/2025</field>
+            <field name="email">armand@beewise.net</field>
+            <field name="phone">0692084599</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52319036k" model="tech.company">
+            <field name="name">Nexora Technology Advertising Company</field>
+            <field name="nipt">M52319036K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/11/2025</field>
+            <field name="email">mehmetdegirmenci54@gmail.com</field>
+            <field name="phone">+355698032037</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52319020b" model="tech.company">
+            <field name="name">ADVANCED ARMS TECHNOLOGY</field>
+            <field name="nipt">M52319020B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHA</field>
+            <field name="registration_date">19/11/2025</field>
+            <field name="email">info@advancedarmstech.com</field>
+            <field name="phone">0692056662</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52304067k" model="tech.company">
+            <field name="name">Penguins Technology Consultancy</field>
+            <field name="nipt">M52304067K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/11/2025</field>
+            <field name="email">gama@impresa.al</field>
+            <field name="phone">0694646574</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52208008q" model="tech.company">
+            <field name="name">PJP TECHNOLOGY</field>
+            <field name="nipt">M52208008Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">08/10/2025</field>
+            <field name="email">pucinoalessandro89@gmail.com</field>
+            <field name="phone">0696976166</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52027027t" model="tech.company">
+            <field name="name">Facilization Academy of Banking Technology</field>
+            <field name="nipt">M52027027T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/08/2025</field>
+            <field name="email">info@facilizationacademy.com</field>
+            <field name="phone">+35542256006, +355682094290</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51809042r" model="tech.company">
+            <field name="name">Ping Technology</field>
+            <field name="nipt">M51809042R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/06/2025</field>
+            <field name="email">financekontabilitet2014@gmail.com</field>
+            <field name="phone">0692261757</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51411027s" model="tech.company">
+            <field name="name">SLEEK TECHNOLOGY</field>
+            <field name="nipt">M51411027S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2025</field>
+            <field name="email">andrea.porcina@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412033a" model="tech.company">
+            <field name="name">IT-AL DOMUS</field>
+            <field name="nipt">M61412033A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">beta@impresa.al</field>
+            <field name="phone">0694646574</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411051p" model="tech.company">
+            <field name="name">Elite Home Beauty</field>
+            <field name="nipt">M61411051P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">ad.training.consulting@gmail.com</field>
+            <field name="phone">0692077739</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52304038u" model="tech.company">
+            <field name="name">Mobileri Lura 1</field>
+            <field name="nipt">M52304038U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/11/2025</field>
+            <field name="email">kaciilir7@gmail.com</field>
+            <field name="phone">0672080203</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51603043m" model="tech.company">
+            <field name="name">Mobileri Gyls</field>
+            <field name="nipt">M51603043M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/04/2025</field>
+            <field name="email">vebdivani@hotmail.com</field>
+            <field name="phone">0696077771</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51313031h" model="tech.company">
+            <field name="name">MOBILERI DEMIR ÇELA</field>
+            <field name="nipt">M51313031H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/01/2025</field>
+            <field name="email">demir_cela@hotmail.com, info@mobileridemircela.com</field>
+            <field name="phone">0682043731</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42104018a" model="tech.company">
+            <field name="name">CANI MOBILERI</field>
+            <field name="nipt">M42104018A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/09/2024</field>
+            <field name="email">shpkcani@gmail.com</field>
+            <field name="phone">0672532131, 0683570947</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41911014b" model="tech.company">
+            <field name="name">MOBILERI ERIK</field>
+            <field name="nipt">M41911014B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/07/2024</field>
+            <field name="email">bledibaqoshi@yahoo.com</field>
+            <field name="phone">0694447737</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41810037i" model="tech.company">
+            <field name="name">Tigo Mobile</field>
+            <field name="nipt">M41810037I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/06/2024</field>
+            <field name="email">julianruci@outlook.com</field>
+            <field name="phone">0672026709</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41609020d" model="tech.company">
+            <field name="name">Mobileri-Albania 2005</field>
+            <field name="nipt">M41609020D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/04/2024</field>
+            <field name="email">agimbiba23@gmail.com</field>
+            <field name="phone">0686034886</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41518055o" model="tech.company">
+            <field name="name">MOBILE MANIA</field>
+            <field name="nipt">M41518055O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/03/2024</field>
+            <field name="email">denis.roboci@yahoo.com</field>
+            <field name="phone">0696020999</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m32219035u" model="tech.company">
+            <field name="name">Nobel Mobileri</field>
+            <field name="nipt">M32219035U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/10/2023</field>
+            <field name="email">mobilerinobel@gmail.com</field>
+            <field name="phone">0692020246</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21912034s" model="tech.company">
+            <field name="name">Echostar Mobile</field>
+            <field name="nipt">M21912034S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">12/07/2022</field>
+            <field name="email">info@lpalbania.com</field>
+            <field name="phone">0675111681</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61326051s" model="tech.company">
+            <field name="name">CODEXCA ORBIT APPS</field>
+            <field name="nipt">M61326051S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">26/01/2026</field>
+            <field name="email">leongustan26@gmail.com</field>
+            <field name="phone">0689496772</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52431011t" model="tech.company">
+            <field name="name">Sapphire Nova</field>
+            <field name="nipt">M52431011T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">31/12/2025</field>
+            <field name="email">sapphirenovaal@gmail.com</field>
+            <field name="phone">0698620777</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52320028b" model="tech.company">
+            <field name="name">AppLab Solution</field>
+            <field name="nipt">M52320028B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/11/2025</field>
+            <field name="email">pavelcovesnicov4@gmail.com</field>
+            <field name="phone">0689093311</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52217038n" model="tech.company">
+            <field name="name">HAPPYBEAT.FM</field>
+            <field name="nipt">M52217038N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">17/10/2025</field>
+            <field name="email">info@happybeat.fm</field>
+            <field name="phone">0694050088</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52122011l" model="tech.company">
+            <field name="name">“ Happy Tails” SH.P.K</field>
+            <field name="nipt">M52122011L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/09/2025</field>
+            <field name="email">infohappytails25@gmail.com</field>
+            <field name="phone">0697631367</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52019015c" model="tech.company">
+            <field name="name">3M Appartment’s</field>
+            <field name="nipt">M52019015C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/08/2025</field>
+            <field name="email">studiokontabelkv@gmail.com</field>
+            <field name="phone">0693963658</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52011020v" model="tech.company">
+            <field name="name">ROKAPPA</field>
+            <field name="nipt">M52011020V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">11/08/2025</field>
+            <field name="email">Info@rokappa.com</field>
+            <field name="phone">0684722417</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51803035e" model="tech.company">
+            <field name="name">Happy Pay</field>
+            <field name="nipt">M51803035E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHA</field>
+            <field name="registration_date">03/06/2025</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51331010g" model="tech.company">
+            <field name="name">Happy Corner Food</field>
+            <field name="nipt">M51331010G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">31/01/2025</field>
+            <field name="email">kimberli.gjata111@gmail.com</field>
+            <field name="phone">0699554636</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61313068q" model="tech.company">
+            <field name="name">ANZOTIKA PROPERTY DEVELOPMENT</field>
+            <field name="nipt">M61313068Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/01/2026</field>
+            <field name="email">anzotikapropertydevelopment@gmail.com</field>
+            <field name="phone">0672064835, 0043664888</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61308037i" model="tech.company">
+            <field name="name">TDU DEVELOPMENT</field>
+            <field name="nipt">M61308037I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">08/01/2026</field>
+            <field name="email">d.shakohoxha@hotmail.com</field>
+            <field name="phone">0693262898</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52430017q" model="tech.company">
+            <field name="name">UMEA DEVELOPMENT HOLDINGS</field>
+            <field name="nipt">M52430017Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/12/2025</field>
+            <field name="email">a.hodaj@balfin.al</field>
+            <field name="phone">0698260720</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52320040u" model="tech.company">
+            <field name="name">Stardata Development</field>
+            <field name="nipt">M52320040U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/11/2025</field>
+            <field name="email">alexandrdimov4@gmail.com</field>
+            <field name="phone">0689401348</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52227007l" model="tech.company">
+            <field name="name">LËVIZUP DEVELOPMENT</field>
+            <field name="nipt">M52227007L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/10/2025</field>
+            <field name="email">nallbaniibjorn11@gmail.com</field>
+            <field name="phone">0694901983, 0692021923</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52222017q" model="tech.company">
+            <field name="name">Global Council for Professional Development</field>
+            <field name="nipt">M52222017Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/10/2025</field>
+            <field name="email">Info@Globalcpd.org</field>
+            <field name="phone">0697018481</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52220049u" model="tech.company">
+            <field name="name">BARRIERE DEVELOPMENT COMPANY</field>
+            <field name="nipt">M52220049U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/10/2025</field>
+            <field name="email">info@kalo-attorneys.com</field>
+            <field name="phone">042233532</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52202037a" model="tech.company">
+            <field name="name">ALBA GREEN DEVELOPMENT</field>
+            <field name="nipt">M52202037A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">02/10/2025</field>
+            <field name="email">eno_seferi@hotmail.com</field>
+            <field name="phone">+355684040631</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52115033g" model="tech.company">
+            <field name="name">STONEBRIDGE DEVELOPMENT</field>
+            <field name="nipt">M52115033G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/09/2025</field>
+            <field name="email">e_myftari@yahoo.com</field>
+            <field name="phone">+355692079585</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52111025s" model="tech.company">
+            <field name="name">G&amp;P Development</field>
+            <field name="nipt">M52111025S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/09/2025</field>
+            <field name="email">petritkatorri@cenaspec.it</field>
+            <field name="phone">0695540213</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61410021m" model="tech.company">
+            <field name="name">AURIS CONSULTING &amp; TRADING</field>
+            <field name="nipt">M61410021M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2026</field>
+            <field name="email">info@arsfirm.al</field>
+            <field name="phone">0694496540</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61406023i" model="tech.company">
+            <field name="name">Workforce Consulting</field>
+            <field name="nipt">M61406023I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/02/2026</field>
+            <field name="email">epastudioconsulting@gmail.com</field>
+            <field name="phone">0696095544</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405038e" model="tech.company">
+            <field name="name">Torlib Consulting</field>
+            <field name="nipt">M61405038E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">chris.j.fong@gmail.com</field>
+            <field name="phone">0693342704</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m62605801g" model="tech.company">
+            <field name="name">On Consulting</field>
+            <field name="nipt">M62605801G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">onconsulting.shpk@gmail.com</field>
+            <field name="phone">0696755707</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61328064n" model="tech.company">
+            <field name="name">PRAXIS CONSULTING</field>
+            <field name="nipt">M61328064N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/01/2026</field>
+            <field name="email">praxisconsultingalbania@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61328038b" model="tech.company">
+            <field name="name">Ostuni Consulting</field>
+            <field name="nipt">M61328038B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/01/2026</field>
+            <field name="email">info@lenis.al</field>
+            <field name="phone">0693159874</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61321023l" model="tech.company">
+            <field name="name">MegAdea Trade &amp; Consulting</field>
+            <field name="nipt">M61321023L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/01/2026</field>
+            <field name="email">ona.metaliaj@gmail.com, nevilasadiku@gmail.com</field>
+            <field name="phone">0676797555</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61312048u" model="tech.company">
+            <field name="name">Rozi Consulting</field>
+            <field name="nipt">M61312048U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/01/2026</field>
+            <field name="email">iskontabiliteti@gmail.com</field>
+            <field name="phone">0692062350</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61307025d" model="tech.company">
+            <field name="name">Fin&amp;Tax Consulting</field>
+            <field name="nipt">M61307025D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/01/2026</field>
+            <field name="email">gjonajleonard@ymail.com</field>
+            <field name="phone">+355682044278</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411053i" model="tech.company">
+            <field name="name">EX Power Solutions</field>
+            <field name="nipt">M61411053I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">Erindxhanaj@gmail.com</field>
+            <field name="phone">0699128773</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m62529803b" model="tech.company">
+            <field name="name">AB SOLUTIONS</field>
+            <field name="nipt">M62529803B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">29/01/2026</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61319040o" model="tech.company">
+            <field name="name">RA SOLUTIONS</field>
+            <field name="nipt">M61319040O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/01/2026</field>
+            <field name="email">roberto.sapienza92@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61313062o" model="tech.company">
+            <field name="name">AdsPoint Solutions</field>
+            <field name="nipt">M61313062O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/01/2026</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61312022e" model="tech.company">
+            <field name="name">DB solutions</field>
+            <field name="nipt">M61312022E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/01/2026</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52430007j" model="tech.company">
+            <field name="name">LIGHT SOLUTIONS</field>
+            <field name="nipt">M52430007J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/12/2025</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52429025c" model="tech.company">
+            <field name="name">OneLink ERP Solutions</field>
+            <field name="nipt">M52429025C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">29/12/2025</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52423033j" model="tech.company">
+            <field name="name">EduTech Solutions</field>
+            <field name="nipt">M52423033J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">23/12/2025</field>
+            <field name="email">danaj.adela@gmail.com</field>
+            <field name="phone">0698133227</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52410037a" model="tech.company">
+            <field name="name">T-SOLUTIONS</field>
+            <field name="nipt">M52410037A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/12/2025</field>
+            <field name="email">tsolutionsshpk@gmail.com, united.insurance.business@gmail.com</field>
+            <field name="phone">0696187840</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61406014j" model="tech.company">
+            <field name="name">Scaffex Systems Albania</field>
+            <field name="nipt">M61406014J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/02/2026</field>
+            <field name="email">eronit.lama@gmail.com, artemisa.lama@gmail.com</field>
+            <field name="phone">0682049967, 0682027216</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405021k" model="tech.company">
+            <field name="name">Electronic Building Systems (EBS)</field>
+            <field name="nipt">M61405021K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">blerim.allani@eb-smart.com</field>
+            <field name="phone">0688007775</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52326040e" model="tech.company">
+            <field name="name">ENG Building Systems</field>
+            <field name="nipt">M52326040E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">26/11/2025</field>
+            <field name="email">bakiuandson@gmail.com</field>
+            <field name="phone">0694040106</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51809058d" model="tech.company">
+            <field name="name">Seven Systems</field>
+            <field name="nipt">M51809058D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/06/2025</field>
+            <field name="email">info@7btc.co</field>
+            <field name="phone">0695410553, 0672072800</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51313013j" model="tech.company">
+            <field name="name">D SISTEM FIRE PROTECTION SYSTEMS &amp; ENGINEERING</field>
+            <field name="nipt">M51313013J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/01/2025</field>
+            <field name="email">info@d-sistem.com</field>
+            <field name="phone">+355672000501</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42410007a" model="tech.company">
+            <field name="name">Smart Power Systems</field>
+            <field name="nipt">M42410007A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/12/2024</field>
+            <field name="email">edmondmurja@gmail.com</field>
+            <field name="phone">0694090884</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41716022l" model="tech.company">
+            <field name="name">Ecosecurity Intelligent Systems</field>
+            <field name="nipt">M41716022L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/05/2024</field>
+            <field name="email">edi.jamaku@gmail.com</field>
+            <field name="phone">0683572286</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41305021f" model="tech.company">
+            <field name="name">InnovateLogic Systems</field>
+            <field name="nipt">M41305021F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/01/2024</field>
+            <field name="email">sildihoxha11@gmail.com</field>
+            <field name="phone">0693122655</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m32420019d" model="tech.company">
+            <field name="name">Pi – Systems A L B A N I A</field>
+            <field name="nipt">M32420019D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/12/2023</field>
+            <field name="email">gramosarmeda@yahoo.com</field>
+            <field name="phone">0695476881</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51610059k" model="tech.company">
+            <field name="name">CLOUD TECH HOUSE</field>
+            <field name="nipt">M51610059K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/04/2025</field>
+            <field name="email">mariogashi@icloud.com</field>
+            <field name="phone">0672028577</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51404039g" model="tech.company">
+            <field name="name">Cloudline sh.p.k</field>
+            <field name="nipt">M51404039G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/02/2025</field>
+            <field name="email">koni.abazi@gmail.com</field>
+            <field name="phone">0697033360</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41721004p" model="tech.company">
+            <field name="name">Marine Data Cloud</field>
+            <field name="nipt">M41721004P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/05/2024</field>
+            <field name="email">Rozafa@MarineDataCloud.com</field>
+            <field name="phone">0692161798</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31715017p" model="tech.company">
+            <field name="name">Cloud</field>
+            <field name="nipt">M31715017P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/05/2023</field>
+            <field name="email">romelda.rrapollari@gmail.com</field>
+            <field name="phone">0694086262</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31319005a" model="tech.company">
+            <field name="name">CLOUD KITCHEN</field>
+            <field name="nipt">M31319005A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/01/2023</field>
+            <field name="email">yigit.arman@icloud.com</field>
+            <field name="phone">0674003686</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22311034u" model="tech.company">
+            <field name="name">DAta Cloud</field>
+            <field name="nipt">M22311034U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/11/2022</field>
+            <field name="email">violaqesja@gmail.com</field>
+            <field name="phone">0696969248</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21428007r" model="tech.company">
+            <field name="name">&quot;Cloud B&quot;</field>
+            <field name="nipt">M21428007R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/02/2022</field>
+            <field name="email">agjinishi@hotmail.com</field>
+            <field name="phone">0694011155</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m12420027p" model="tech.company">
+            <field name="name">CLOUDEX</field>
+            <field name="nipt">M12420027P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/12/2021</field>
+            <field name="email">hoxhaervin07@gmail.com</field>
+            <field name="phone">0693444403</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m12227015v" model="tech.company">
+            <field name="name">Cloud Connect</field>
+            <field name="nipt">M12227015V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/10/2021</field>
+            <field name="email">heraldkapaj@gmail.com</field>
+            <field name="phone">0692842263</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m11627007r" model="tech.company">
+            <field name="name">STAR CLOUD</field>
+            <field name="nipt">M11627007R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/04/2021</field>
+            <field name="email">starcloud21@protonmail.ch</field>
+            <field name="phone">+355695124774</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52415050f" model="tech.company">
+            <field name="name">DATA CONSTRUCTION</field>
+            <field name="nipt">M52415050F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/12/2025</field>
+            <field name="email">dritanbeshiri1@gmail.com</field>
+            <field name="phone">0694050487</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52207025b" model="tech.company">
+            <field name="name">DATA PIONEERS</field>
+            <field name="nipt">M52207025B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/10/2025</field>
+            <field name="email">SQLGULF-CIO@outlook.com</field>
+            <field name="phone">0096654282</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52111017e" model="tech.company">
+            <field name="name">SONDATA</field>
+            <field name="nipt">M52111017E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/09/2025</field>
+            <field name="email">sondata10@gmail.com</field>
+            <field name="phone">+355682011377</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51929015i" model="tech.company">
+            <field name="name">SPACE DATA</field>
+            <field name="nipt">M51929015I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">29/07/2025</field>
+            <field name="email">edvin_hajdari@hotmail.com</field>
+            <field name="phone">+355692422682</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51706067h" model="tech.company">
+            <field name="name">ALBANIA DATA CENTER</field>
+            <field name="nipt">M51706067H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/05/2025</field>
+            <field name="email">klaudiobushaj@yahoo.com</field>
+            <field name="phone">0697877008</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51614002i" model="tech.company">
+            <field name="name">XponentL Data Albania</field>
+            <field name="nipt">M51614002I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">14/04/2025</field>
+            <field name="email">frank.rotonta@xponentl.ai</field>
+            <field name="phone">+35544500230</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51428024k" model="tech.company">
+            <field name="name">DATA COMPUTER</field>
+            <field name="nipt">M51428024K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/02/2025</field>
+            <field name="email">atomcomputers004@gmail.com</field>
+            <field name="phone">0685995562</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42325017k" model="tech.company">
+            <field name="name">INTERNACIONAL DATABASE COMUNICACION</field>
+            <field name="nipt">M42325017K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/11/2024</field>
+            <field name="email">ilieconstantinescu197@gmail.com</field>
+            <field name="phone">0684994379</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42315033l" model="tech.company">
+            <field name="name">DATALYTICS HUB</field>
+            <field name="nipt">M42315033L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/11/2024</field>
+            <field name="email">dorilamlli@gmail.com</field>
+            <field name="phone">0685931883</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m53211802k" model="tech.company">
+            <field name="name">Cyber Safe AL</field>
+            <field name="nipt">M53211802K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/08/2025</field>
+            <field name="email">farruk2014@gmail.com</field>
+            <field name="phone">0692163074</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51721021g" model="tech.company">
+            <field name="name">XY CYBER</field>
+            <field name="nipt">M51721021G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/05/2025</field>
+            <field name="email">drilon@xy-cyber.com, security@xy-cyber.com</field>
+            <field name="phone">+355693971132</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51414033i" model="tech.company">
+            <field name="name">Cyberfarm</field>
+            <field name="nipt">M51414033I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">14/02/2025</field>
+            <field name="email">kushtrim.sh@gmail.com</field>
+            <field name="phone">+355692223905</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42104013f" model="tech.company">
+            <field name="name">Deep Dive Cyber Forensic Experts</field>
+            <field name="nipt">M42104013F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/09/2024</field>
+            <field name="email">marselaonuzi@yahoo.com</field>
+            <field name="phone">0697768935</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41922001c" model="tech.company">
+            <field name="name">CYBER SECURITY</field>
+            <field name="nipt">M41922001C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/07/2024</field>
+            <field name="email">maraelona94@gmail.com</field>
+            <field name="phone">0682729586</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41525002n" model="tech.company">
+            <field name="name">CYBER MORFOSIS</field>
+            <field name="nipt">M41525002N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/03/2024</field>
+            <field name="email">edliran@yahoo.com</field>
+            <field name="phone">0672865595</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31906024f" model="tech.company">
+            <field name="name">Cyber Sentry Solution Albania</field>
+            <field name="nipt">M31906024F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/07/2023</field>
+            <field name="email">aademaj@gmail.com</field>
+            <field name="phone">+355697292280</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31427023s" model="tech.company">
+            <field name="name">CYBER INVEST</field>
+            <field name="nipt">M31427023S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/02/2023</field>
+            <field name="email">elda.kozaj@gmail.com</field>
+            <field name="phone">0692939303</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22113009u" model="tech.company">
+            <field name="name">Cyber @ Software Solutions</field>
+            <field name="nipt">M22113009U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/09/2022</field>
+            <field name="email">legalandtaxalbania@gmail.com</field>
+            <field name="phone">0692296201</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21428014a" model="tech.company">
+            <field name="name">Cyberoo Al</field>
+            <field name="nipt">M21428014A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/02/2022</field>
+            <field name="email">andi.haxhillari@alprofitconsult.al, info@cyberoo.com</field>
+            <field name="phone">0693232349</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51918020m" model="tech.company">
+            <field name="name">DMB NETWORK</field>
+            <field name="nipt">M51918020M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/07/2025</field>
+            <field name="email">endri_bulica@yahoo.com</field>
+            <field name="phone">+355674014898</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42210027i" model="tech.company">
+            <field name="name">TOWER2-NETWORK-SERVICES AL</field>
+            <field name="nipt">M42210027I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/10/2024</field>
+            <field name="email">tomi.durrsi18@gmail.com</field>
+            <field name="phone">0696850983</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41710017o" model="tech.company">
+            <field name="name">CareerNetwork</field>
+            <field name="nipt">M41710017O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/05/2024</field>
+            <field name="email">sajgonakokici@ymail.com</field>
+            <field name="phone">+355674033355</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41622002b" model="tech.company">
+            <field name="name">“TOWER NETWORK SERVICES AL”</field>
+            <field name="nipt">M41622002B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/04/2024</field>
+            <field name="email">tomi.durrsi18@gmail.com</field>
+            <field name="phone">0675300945, 0696850983</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41507033v" model="tech.company">
+            <field name="name">Koppa Network</field>
+            <field name="nipt">M41507033V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/03/2024</field>
+            <field name="email">xhoni10@live.com</field>
+            <field name="phone">0693609710</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31516007h" model="tech.company">
+            <field name="name">ITALIAN NETWORK TAX &amp; ACCOUNTING</field>
+            <field name="nipt">M31516007H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/03/2023</field>
+            <field name="email">accounting@italian-network.net</field>
+            <field name="phone">0693114433</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31325020e" model="tech.company">
+            <field name="name">Intelligent Network Solutions Albania</field>
+            <field name="nipt">M31325020E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/01/2023</field>
+            <field name="email">egjinollari@ufficiomio.com</field>
+            <field name="phone">0692666522</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22323023t" model="tech.company">
+            <field name="name">TOK – Partners Network</field>
+            <field name="nipt">M22323023T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">23/11/2022</field>
+            <field name="email">ledi.mezini@yahoo.com</field>
+            <field name="phone">0695516463</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22301018l" model="tech.company">
+            <field name="name">Law Business Network</field>
+            <field name="nipt">M22301018L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">01/11/2022</field>
+            <field name="email">lawbusinessnetwork@gmail.com</field>
+            <field name="phone">0039393968</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22207006p" model="tech.company">
+            <field name="name">PSN – PROFESSIONAL SERVICE NETWORK</field>
+            <field name="nipt">M22207006P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/10/2022</field>
+            <field name="email">segreteria.tecnica@isvaitalia.it</field>
+            <field name="phone">0693114433</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51410026f" model="tech.company">
+            <field name="name">INTERNETFLY</field>
+            <field name="nipt">M51410026F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2025</field>
+            <field name="email">myzeqarieduart@gmail.com</field>
+            <field name="phone">0699163350</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m32420012q" model="tech.company">
+            <field name="name">INTERNET &amp; IDEE S.R.L.</field>
+            <field name="nipt">M32420012Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">20/12/2023</field>
+            <field name="email">Massimiliano.stumpo@internet-idee.net</field>
+            <field name="phone">+355676750670</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l51424004v" model="tech.company">
+            <field name="name">Bar Internet</field>
+            <field name="nipt">L51424004V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/02/2015</field>
+            <field name="email">vis.mulaj@gmail.com</field>
+            <field name="phone">0696374587</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k91714013f" model="tech.company">
+            <field name="name">ALBANIAINTERNET</field>
+            <field name="nipt">K91714013F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">14/05/2009</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_j92031006s" model="tech.company">
+            <field name="name">INTERNET AND CAFFE</field>
+            <field name="nipt">J92031006S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/06/1999</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51810029s" model="tech.company">
+            <field name="name">BAUMARKET ONLINE</field>
+            <field name="nipt">M51810029S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/06/2025</field>
+            <field name="email">info@baumarket.al</field>
+            <field name="phone">+355684077741</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m32018026k" model="tech.company">
+            <field name="name">INBET ONLINE ALBANIA</field>
+            <field name="nipt">M32018026K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHA</field>
+            <field name="registration_date">18/08/2023</field>
+            <field name="email">etleva.prence@gmail.com</field>
+            <field name="phone">+355692047429</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22120006i" model="tech.company">
+            <field name="name">CONVIENEONLINE BROKER</field>
+            <field name="nipt">M22120006I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">20/09/2022</field>
+            <field name="email">accounting@italian-network.net</field>
+            <field name="phone">0693116655</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m22024019k" model="tech.company">
+            <field name="name">Ekspres Online Media Consulting</field>
+            <field name="nipt">M22024019K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/08/2022</field>
+            <field name="email">ndrecaklaudio@yahoo.com</field>
+            <field name="phone">0684326529</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21905027a" model="tech.company">
+            <field name="name">BLI ONLINE</field>
+            <field name="nipt">M21905027A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/07/2022</field>
+            <field name="email">bleona@ratech.al</field>
+            <field name="phone">0684151883</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21628013v" model="tech.company">
+            <field name="name">Shko Online</field>
+            <field name="nipt">M21628013V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/04/2022</field>
+            <field name="email">sales@shko.online</field>
+            <field name="phone">00355694487484</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21424031q" model="tech.company">
+            <field name="name">JUPITER ONLINE TRADE</field>
+            <field name="nipt">M21424031Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/02/2022</field>
+            <field name="email">info@jupitershop.al</field>
+            <field name="phone">0682020767</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m12305012f" model="tech.company">
+            <field name="name">Accademiaonlinealbania AOA</field>
+            <field name="nipt">M12305012F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/11/2021</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m12228007m" model="tech.company">
+            <field name="name">HERON ONLINE CONSULTANCY SERVICES</field>
+            <field name="nipt">M12228007M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/10/2021</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m11613006i" model="tech.company">
+            <field name="name">Gazeta Shqip Online</field>
+            <field name="nipt">M11613006I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/04/2021</field>
+            <field name="email">vjollcahoxha@gmail.com</field>
+            <field name="phone">0696023087</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42225023f" model="tech.company">
+            <field name="name">SoftCrafter E-Commerce</field>
+            <field name="nipt">M42225023F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/10/2024</field>
+            <field name="email">legal@softcrafter.net</field>
+            <field name="phone">+355696066339</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l41315061n" model="tech.company">
+            <field name="name">ALBANIA E-COMMERCE</field>
+            <field name="nipt">L41315061N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/01/2014</field>
+            <field name="phone">0693071298</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21928029q" model="tech.company">
+            <field name="name">AA PROPERTY PLATFORM</field>
+            <field name="nipt">M21928029Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/07/2022</field>
+            <field name="email">aaproperty.platform@yahoo.com</field>
+            <field name="phone">0699643411</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l71624004g" model="tech.company">
+            <field name="name">DION PLATFORM</field>
+            <field name="nipt">L71624004G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/04/2017</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l51624021r" model="tech.company">
+            <field name="name">PLATFORMA</field>
+            <field name="nipt">L51624021R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/04/2015</field>
+            <field name="phone">0674930924</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l41820007n" model="tech.company">
+            <field name="name">ADRIATIC PETROLEUM PLATFORM PTE. LTD</field>
+            <field name="nipt">L41820007N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">20/06/2014</field>
+            <field name="email">info@adriatic-platform.com</field>
+            <field name="phone">0692044754</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k21514002a" model="tech.company">
+            <field name="name">Rea Projektim, Programim dhe Menaxhim</field>
+            <field name="nipt">K21514002A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/03/2002</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51722017g" model="tech.company">
+            <field name="name">Alb Teknologji</field>
+            <field name="nipt">M51722017G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/05/2025</field>
+            <field name="email">myrtokujtim.al@gmail.com</field>
+            <field name="phone">0696080789</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m02430014k" model="tech.company">
+            <field name="name">KOLEGJI PROFESIONAL GJERMAN I TEKNOLOGJISË</field>
+            <field name="nipt">M02430014K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/12/2020</field>
+            <field name="email">zenelineshat@gmail.com</field>
+            <field name="phone">0672009608</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m02403014n" model="tech.company">
+            <field name="name">EKM Konstruksion &amp; Teknologji</field>
+            <field name="nipt">M02403014N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/12/2020</field>
+            <field name="email">ekm.konstruksion.tek@gmail.com, ekm.konstruksion.teknologji.shpk@gmail.com</field>
+            <field name="phone">0695555594</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l61312065j" model="tech.company">
+            <field name="name">TIRANA TEKNOLOGJI</field>
+            <field name="nipt">L61312065J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/01/2016</field>
+            <field name="email">fintaks@gmail.com</field>
+            <field name="phone">042225950</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l51810014q" model="tech.company">
+            <field name="name">AL-SWISS Teknologji - Energji 2015</field>
+            <field name="nipt">L51810014Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/06/2015</field>
+            <field name="email">enbaroni@gmail.com</field>
+            <field name="phone">067605500</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k31528095u" model="tech.company">
+            <field name="name">Laboratori Biokimik dhe Bioteknologjik</field>
+            <field name="nipt">K31528095U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/03/1998</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52417042b" model="tech.company">
+            <field name="name">BANKA SHQIPTARE E ZHVILLIMIT</field>
+            <field name="nipt">M52417042B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHA</field>
+            <field name="registration_date">17/12/2025</field>
+            <field name="email">info@financa.gov.al</field>
+            <field name="phone">+355689098777</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21815018c" model="tech.company">
+            <field name="name">Projekte dhe Zhvillim</field>
+            <field name="nipt">M21815018C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/06/2022</field>
+            <field name="email">info@studiotirana.com</field>
+            <field name="phone">0699325722</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l58307619h" model="tech.company">
+            <field name="name">VIZIONI PER ZHVILLIM KOMBETAR</field>
+            <field name="nipt">L58307619H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/09/2015</field>
+            <field name="email">secretariat@vndacorp.com, info@vndacorp.com</field>
+            <field name="phone">0699298620</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l41512021a" model="tech.company">
+            <field name="name">ZHVILLIMI SHQIPTAR</field>
+            <field name="nipt">L41512021A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHKK</field>
+            <field name="registration_date">12/03/2014</field>
+            <field name="phone">0692165047</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l31819010e" model="tech.company">
+            <field name="name">Inovacione e të Dhëna për Zhvillimin e Qëndrueshëm - INDAS / Innovation and Data for Sustainable Development - INDAS</field>
+            <field name="nipt">L31819010E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/06/2013</field>
+            <field name="email">info.indaseurope@gmail.com</field>
+            <field name="phone">0692232299</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l23318201a" model="tech.company">
+            <field name="name">Qendra e Vleresimit dhe Zhvillimit te Pasurive Ujore</field>
+            <field name="nipt">L23318201A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/09/2012</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k91803009r" model="tech.company">
+            <field name="name">FONDI SHQIPTAR I ZHVILLIMIT</field>
+            <field name="nipt">K91803009R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form"></field>
+            <field name="registration_date">03/06/2009</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k82210001r" model="tech.company">
+            <field name="name">Mjedisi dhe Zhvillimi i Qendrueshem</field>
+            <field name="nipt">K82210001R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/10/2008</field>
+            <field name="email">shehu.ardian@yahoo.com</field>
+            <field name="phone">042223327</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k52227006b" model="tech.company">
+            <field name="name">FOND. AGJENCIA ZHVILLIMIT ZONAVE MALORE</field>
+            <field name="nipt">K52227006B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/05/2001</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61316012r" model="tech.company">
+            <field name="name">Visione &amp; Sistemi</field>
+            <field name="nipt">M61316012R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/01/2026</field>
+            <field name="email">euconsultancyalbania@gmail.com</field>
+            <field name="phone">0039335593</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42327002t" model="tech.company">
+            <field name="name">Delta Transportni Sistem - D.T.S.</field>
+            <field name="nipt">M42327002T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/11/2024</field>
+            <field name="email">office@dts.al</field>
+            <field name="phone">0382682024</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31716015e" model="tech.company">
+            <field name="name">SISTEMI ENERGIA</field>
+            <field name="nipt">M31716015E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/05/2023</field>
+            <field name="email">vendite@sistemienergia.it</field>
+            <field name="phone">0684098813, 0039346678</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21529504i" model="tech.company">
+            <field name="name">FB Termosistemi</field>
+            <field name="nipt">M21529504I</field>
+            <field name="city">durres</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">29/03/2022</field>
+            <field name="email">info@fbtermosistemi.com</field>
+            <field name="phone">0692611201</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m11328007n" model="tech.company">
+            <field name="name">AKADEMIA E DRONEVE DHE SISTEMEVE UAS - ALBADRON</field>
+            <field name="nipt">M11328007N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/01/2021</field>
+            <field name="email">adrian.haxhiaj@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l92103055c" model="tech.company">
+            <field name="name">Sistem Integrations</field>
+            <field name="nipt">L92103055C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/09/2019</field>
+            <field name="email">arbtrans@yahoo.com, sistem.integrations@gmail.com</field>
+            <field name="phone">0684007474</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l91521022l" model="tech.company">
+            <field name="name">Sistemet Elektrike te Automatizimit (SEA)</field>
+            <field name="nipt">L91521022L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/03/2019</field>
+            <field name="email">bledarhoxha20@gmail.com, almabilali88@gmail.com</field>
+            <field name="phone">0693308515</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l82418019u" model="tech.company">
+            <field name="name">KIRAÇ OTOMASYON ELEKTRlK ELEKTRONIK SISTEMLERI SANAYI VE TICARET LIMITED SIRKETI-DEGA TIRANE</field>
+            <field name="nipt">L82418019U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">18/12/2018</field>
+            <field name="email">eldoradodemo@gmail.com, demoeldo@gmail.com</field>
+            <field name="phone">0672020080</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l82016010s" model="tech.company">
+            <field name="name">Efacec Engenharia e Sistemas, S.A., Dega ne Shqipëri</field>
+            <field name="nipt">L82016010S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">16/08/2018</field>
+            <field name="email">sgps@efacec.pt</field>
+            <field name="phone">042251050</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42210030f" model="tech.company">
+            <field name="name">Prorrjet</field>
+            <field name="nipt">M42210030F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/10/2024</field>
+            <field name="email">sandrikercani@gmail.com</field>
+            <field name="phone">0692970371</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21510011e" model="tech.company">
+            <field name="name">RRJETA.AL</field>
+            <field name="nipt">M21510011E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/03/2022</field>
+            <field name="email">info@rrjeta.al</field>
+            <field name="phone">0692031900</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m01407037a" model="tech.company">
+            <field name="name">&quot;Rrjeti Televizioneve Lokale VHF (RrTLCenter)&quot;</field>
+            <field name="nipt">M01407037A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/02/2020</field>
+            <field name="email">shoqatartl@yahoo.com</field>
+            <field name="phone">0682023606</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l92318015j" model="tech.company">
+            <field name="name">Rrjeti Televizioneve Lokale VHF ( RrTL - Jug )</field>
+            <field name="nipt">L92318015J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/11/2019</field>
+            <field name="email">hotel.kocibelli@gmail.com</field>
+            <field name="phone">0698666945</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l91603019t" model="tech.company">
+            <field name="name">Rrjeti Televiziv Lokal VHF(RrTL VHF)</field>
+            <field name="nipt">L91603019T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHA</field>
+            <field name="registration_date">03/04/2019</field>
+            <field name="email">edmondisaku@yahoo.com</field>
+            <field name="phone">0682020663</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l61830003k" model="tech.company">
+            <field name="name">RRJET SOC</field>
+            <field name="nipt">L61830003K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/06/2016</field>
+            <field name="phone">0695177029</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k61409013o" model="tech.company">
+            <field name="name">Nokia Siemens Rrjete Telekomunikacioni Ellas A.E</field>
+            <field name="nipt">K61409013O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">30/11/2005</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_k81503063b" model="tech.company">
+            <field name="name">IT Gjergji Kompjuter</field>
+            <field name="nipt">K81503063B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/03/2008</field>
+            <field name="email">eagalliu@infosoftgroup.com.al, bagolli@infosoftgroup.com.al</field>
+            <field name="phone">0692029937, 0692070546</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_j61814003u" model="tech.company">
+            <field name="name">QENDRA INFORMATIKES EKONOMIKE</field>
+            <field name="nipt">J61814003U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Shoqeri kolektive</field>
+            <field name="registration_date">30/05/1996</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31715015a" model="tech.company">
+            <field name="name">Zgjidhje-net</field>
+            <field name="nipt">M31715015A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/05/2023</field>
+            <field name="email">info@zgjidhje.net</field>
+            <field name="phone">+355696812701</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61410043t" model="tech.company">
+            <field name="name">ParvaALBA</field>
+            <field name="nipt">M61410043T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2026</field>
+            <field name="email">Info@albataksa.com</field>
+            <field name="phone">0682032684</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61406055a" model="tech.company">
+            <field name="name">Duemila</field>
+            <field name="nipt">M61406055A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/02/2026</field>
+            <field name="email">duemila@gmail.com</field>
+            <field name="phone">0684018305</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61406024q" model="tech.company">
+            <field name="name">ALB DEV</field>
+            <field name="nipt">M61406024Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/02/2026</field>
+            <field name="email">durakumeti89@gmail.com</field>
+            <field name="phone">0698239380</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61403037j" model="tech.company">
+            <field name="name">TIMELINE</field>
+            <field name="nipt">M61403037J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/02/2026</field>
+            <field name="email">info@timeline.al</field>
+            <field name="phone">0693342213</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61321053j" model="tech.company">
+            <field name="name">ICS Albania</field>
+            <field name="nipt">M61321053J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/01/2026</field>
+            <field name="email">info@ics.al, ekontab@gmail.com</field>
+            <field name="phone">+355696524260, +355697122258</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61316019e" model="tech.company">
+            <field name="name">Aina entertainment</field>
+            <field name="nipt">M61316019E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">16/01/2026</field>
+            <field name="email">info@circle.al</field>
+            <field name="phone">0672011211</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409067o" model="tech.company">
+            <field name="name">Rezervime</field>
+            <field name="nipt">M61409067O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">visjan1988@gmail.com</field>
+            <field name="phone">0694339200</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52318504v" model="tech.company">
+            <field name="name">IM Tech</field>
+            <field name="nipt">M52318504V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">18/11/2025</field>
+            <field name="email">info@imtech.al</field>
+            <field name="phone">0693317438</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52103035i" model="tech.company">
+            <field name="name">Bio Technologies</field>
+            <field name="nipt">M52103035I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/09/2025</field>
+            <field name="email">info@biotechnologies.al</field>
+            <field name="phone">+355682078527</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52001008v" model="tech.company">
+            <field name="name">“ALBA GLOBAL TECHNO”</field>
+            <field name="nipt">M52001008V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">01/08/2025</field>
+            <field name="email">albaglobaltechno@gmail.com</field>
+            <field name="phone">0698326615</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51819031g" model="tech.company">
+            <field name="name">Intellevision</field>
+            <field name="nipt">M51819031G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">19/06/2025</field>
+            <field name="email">zefixhulio97@gmail.com</field>
+            <field name="phone">0688205000, 0682013440</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51812047d" model="tech.company">
+            <field name="name">ALTINOVA TECH</field>
+            <field name="nipt">M51812047D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/06/2025</field>
+            <field name="email">rkozma102@gmail.com, contact@kontalb.com</field>
+            <field name="phone">0685526939</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51812031r" model="tech.company">
+            <field name="name">XFINX</field>
+            <field name="nipt">M51812031R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/06/2025</field>
+            <field name="email">xhino.nelo@hotmail.com</field>
+            <field name="phone">0672033080</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51810041o" model="tech.company">
+            <field name="name">UTILEXAL</field>
+            <field name="nipt">M51810041O</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/06/2025</field>
+            <field name="email">xhesjankaraj@gmail.com</field>
+            <field name="phone">0684741209</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51720015d" model="tech.company">
+            <field name="name">Scannpay</field>
+            <field name="nipt">M51720015D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/05/2025</field>
+            <field name="email">flavio@scannpay.io</field>
+            <field name="phone">0694039209</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51629043e" model="tech.company">
+            <field name="name">CodeMasters</field>
+            <field name="nipt">M51629043E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">29/04/2025</field>
+            <field name="email">gerardkraja@gmail.com</field>
+            <field name="phone">+355694795189</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51328063e" model="tech.company">
+            <field name="name">PAYAL shpk</field>
+            <field name="nipt">M51328063E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">28/01/2025</field>
+            <field name="email">info@payal.al</field>
+            <field name="phone">+355682055559</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42411024s" model="tech.company">
+            <field name="name">Ankand Albania</field>
+            <field name="nipt">M42411024S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/12/2024</field>
+            <field name="email">landi-91@live.com</field>
+            <field name="phone">0683500363</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41710034e" model="tech.company">
+            <field name="name">Absolut Technology System</field>
+            <field name="nipt">M41710034E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/05/2024</field>
+            <field name="email">info@absolutsystem.al</field>
+            <field name="phone">0698815888</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41426020n" model="tech.company">
+            <field name="name">AIRCASH ALBANIA</field>
+            <field name="nipt">M41426020N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">26/02/2024</field>
+            <field name="email">areta.ruci@shp.al</field>
+            <field name="phone">0684755383</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m31725029t" model="tech.company">
+            <field name="name">UTILEX</field>
+            <field name="nipt">M31725029T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/05/2023</field>
+            <field name="email">info@utilex.al</field>
+            <field name="phone">0684374568</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m21813020e" model="tech.company">
+            <field name="name">Bulls Vision Group</field>
+            <field name="nipt">M21813020E</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/06/2022</field>
+            <field name="email">office@bullsvision.al</field>
+            <field name="phone">0688030182</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412046h" model="tech.company">
+            <field name="name">ARJON CONSTRUCTION</field>
+            <field name="nipt">M61412046H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">qamaenes85@gmail.com</field>
+            <field name="phone">0696968226</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412045a" model="tech.company">
+            <field name="name">Krada Construction</field>
+            <field name="nipt">M61412045A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">arjola_lleshi91@icloud.com</field>
+            <field name="phone">0035569362725</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412041n" model="tech.company">
+            <field name="name">HOME DISTRIBUTION</field>
+            <field name="nipt">M61412041N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">gesardserjanaj22@gmail.com</field>
+            <field name="phone">+355685300167</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412039b" model="tech.company">
+            <field name="name">ALI Construction</field>
+            <field name="nipt">M61412039B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">aplikime80@gmail.com</field>
+            <field name="phone">0684045566</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412038q" model="tech.company">
+            <field name="name">Imperium Group Property Management</field>
+            <field name="nipt">M61412038Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">alfa@impresa.al</field>
+            <field name="phone">0694646574</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412037i" model="tech.company">
+            <field name="name">Xibraku Construction</field>
+            <field name="nipt">M61412037I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">Ergixibraku99@gmail.com</field>
+            <field name="phone">0682022843</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411046c" model="tech.company">
+            <field name="name">R.A.J Mobi Color</field>
+            <field name="nipt">M61411046C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">arbersterjo@gmail.com, johansterjo@gmail.com</field>
+            <field name="phone">0692341421, 0697311381, 0672045454</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409078g" model="tech.company">
+            <field name="name">AXHA CONSTRUCTION</field>
+            <field name="nipt">M61409078G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">eda_dervishi@hotmail.com</field>
+            <field name="phone">0696730575</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409036i" model="tech.company">
+            <field name="name">BLIN CONSTRUCTION</field>
+            <field name="nipt">M61409036I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">fjorel_1@icloud.com</field>
+            <field name="phone">00355676760000</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409034p" model="tech.company">
+            <field name="name">DAJA GROUP</field>
+            <field name="nipt">M61409034P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">luisdaja20@gmail.com</field>
+            <field name="phone">0682066002</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52220040r" model="tech.company">
+            <field name="name">R-Tech</field>
+            <field name="nipt">M52220040R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">20/10/2025</field>
+            <field name="email">roenzaka1@gmail.com</field>
+            <field name="phone">0675211354</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m53303801l" model="tech.company">
+            <field name="name">Source Albania</field>
+            <field name="nipt">M53303801L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/09/2025</field>
+            <field name="email">sourcealbania@gmail.com</field>
+            <field name="phone">0688300003</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51827014k" model="tech.company">
+            <field name="name">BASECODE</field>
+            <field name="nipt">M51827014K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/06/2025</field>
+            <field name="email">flakerimi@gmail.com</field>
+            <field name="phone">0038349424</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51825012h" model="tech.company">
+            <field name="name">NOD</field>
+            <field name="nipt">M51825012H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/06/2025</field>
+            <field name="email">joanidhi.rezart@gmail.com</field>
+            <field name="phone">0692378569</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52305037r" model="tech.company">
+            <field name="name">PRONIX</field>
+            <field name="nipt">M52305037R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/11/2025</field>
+            <field name="email">g.habilaj@gmail.com</field>
+            <field name="phone">0695667885</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61305030g" model="tech.company">
+            <field name="name">RB Consulting</field>
+            <field name="nipt">M61305030G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/01/2026</field>
+            <field name="email">info@rbconsulenza.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52213041n" model="tech.company">
+            <field name="name">EasyWay Albania</field>
+            <field name="nipt">M52213041N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/10/2025</field>
+            <field name="email">Sallaelvis@gmail.com</field>
+            <field name="phone">0695518991</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52015027f" model="tech.company">
+            <field name="name">3S</field>
+            <field name="nipt">M52015027F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/08/2025</field>
+            <field name="email">selmani280@gmail.com</field>
+            <field name="phone">0695149638</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51910029v" model="tech.company">
+            <field name="name">YUMA CONSULTING</field>
+            <field name="nipt">M51910029V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/07/2025</field>
+            <field name="email">Info@danieladelia.com</field>
+            <field name="phone">0693601157</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52207043a" model="tech.company">
+            <field name="name">DoIt Support&amp;Solution</field>
+            <field name="nipt">M52207043A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">07/10/2025</field>
+            <field name="email">Info@doit.al</field>
+            <field name="phone">0674049550</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51622070m" model="tech.company">
+            <field name="name">GRANTECH</field>
+            <field name="nipt">M51622070M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/04/2025</field>
+            <field name="email">grantechshpk@gmail.com</field>
+            <field name="phone">+355685666660</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51327045b" model="tech.company">
+            <field name="name">Compelling Works</field>
+            <field name="nipt">M51327045B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/01/2025</field>
+            <field name="email">marina.babali@hotmail.com</field>
+            <field name="phone">00355698622393</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m42123040f" model="tech.company">
+            <field name="name">METIS SOLUTIONS</field>
+            <field name="nipt">M42123040F</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">23/09/2024</field>
+            <field name="email">migean@gmail.com</field>
+            <field name="phone">0673411411</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m41925009m" model="tech.company">
+            <field name="name">Safety Solutions Albania</field>
+            <field name="nipt">M41925009M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/07/2024</field>
+            <field name="email">gjeobledi@gmail.com</field>
+            <field name="phone">0693769949</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52005011p" model="tech.company">
+            <field name="name">AUREX GROUP</field>
+            <field name="nipt">M52005011P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/08/2025</field>
+            <field name="email">antoniouka.business@gmail.com</field>
+            <field name="phone">0688810000</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51825037p" model="tech.company">
+            <field name="name">AD&amp;MI CALL</field>
+            <field name="nipt">M51825037P</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">25/06/2025</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l93424801h" model="tech.company">
+            <field name="name">BIT POLAR</field>
+            <field name="nipt">L93424801H</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">24/10/2019</field>
+            <field name="email">knv9685154324@mail.ru</field>
+            <field name="phone">0796839980</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_l91922011n" model="tech.company">
+            <field name="name">EXCELLENCE SOLUTION</field>
+            <field name="nipt">L91922011N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">22/07/2019</field>
+            <field name="email">info@excellence-solution.co</field>
+            <field name="phone">0696810398</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61406059i" model="tech.company">
+            <field name="name">MR SMART</field>
+            <field name="nipt">M61406059I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/02/2026</field>
+            <field name="email">merjankalldani@gmail.com</field>
+            <field name="phone">0695724446</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405036l" model="tech.company">
+            <field name="name">Albatull</field>
+            <field name="nipt">M61405036L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">valdet@albatull.al</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61403050n" model="tech.company">
+            <field name="name">GLOBAL BUSINESS ASSIST</field>
+            <field name="nipt">M61403050N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/02/2026</field>
+            <field name="email">besmir.f.metani@gmail.com</field>
+            <field name="phone">0676006660</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61327026t" model="tech.company">
+            <field name="name">AXION ALBANIA</field>
+            <field name="nipt">M61327026T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/01/2026</field>
+            <field name="email">ozanbagirx@gmail.com</field>
+            <field name="phone">0692793115</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61327011s" model="tech.company">
+            <field name="name">CEPALabs</field>
+            <field name="nipt">M61327011S</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/01/2026</field>
+            <field name="email">hello@cepalabs.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61321054r" model="tech.company">
+            <field name="name">Hexavers</field>
+            <field name="nipt">M61321054R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">21/01/2026</field>
+            <field name="email">contact@hexavers.com</field>
+            <field name="phone">+355672061746, 011087 122</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61327036d" model="tech.company">
+            <field name="name">Pix+</field>
+            <field name="nipt">M61327036D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">27/01/2026</field>
+            <field name="email">ergys.zhabjaku@yahoo.com, kruja.iris@yahoo.com</field>
+            <field name="phone">0674094802, 0674094801</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61313048c" model="tech.company">
+            <field name="name">ESG2027</field>
+            <field name="nipt">M61313048C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/01/2026</field>
+            <field name="email">giusi.duca62@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61313022j" model="tech.company">
+            <field name="name">Impact Evaluation Lab</field>
+            <field name="nipt">M61313022J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">13/01/2026</field>
+            <field name="email">impactevaluationlab@gmail.com</field>
+            <field name="phone">+355697736037</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52415052v" model="tech.company">
+            <field name="name">AURENIX</field>
+            <field name="nipt">M52415052V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/12/2025</field>
+            <field name="email">fatura.suport@gmail.com</field>
+            <field name="phone">0688015932</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52012024m" model="tech.company">
+            <field name="name">Three Solutions</field>
+            <field name="nipt">M52012024M</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/08/2025</field>
+            <field name="email">threesolutions2025@gmail.com</field>
+            <field name="phone">0698451535</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m51315164a" model="tech.company">
+            <field name="name">Itaka7</field>
+            <field name="nipt">M51315164A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">15/01/2025</field>
+            <field name="email">orjon.nallbati@itaka7.com</field>
+            <field name="phone">0693314640</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m62604804c" model="tech.company">
+            <field name="name">Diellza 2026</field>
+            <field name="nipt">M62604804C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">04/02/2026</field>
+            <field name="email">robertprendi@hotmail.com</field>
+            <field name="phone">0692914499</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m52402041k" model="tech.company">
+            <field name="name">All Security Equipment Distribution ASE-D</field>
+            <field name="nipt">M52402041K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">02/12/2025</field>
+            <field name="email">info@ase-d.al</field>
+            <field name="phone">0695547788</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61403023q" model="tech.company">
+            <field name="name">Axis Operations</field>
+            <field name="nipt">M61403023Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/02/2026</field>
+            <field name="email">francois@brickmanne.be</field>
+            <field name="phone">0032472652</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61402036t" model="tech.company">
+            <field name="name">IdeaFlux Agency</field>
+            <field name="nipt">M61402036T</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">02/02/2026</field>
+            <field name="email">arlindveliaj21@gmail.com</field>
+            <field name="phone">0698284112</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61330025d" model="tech.company">
+            <field name="name">STRIVIFY BRAND STUDIO</field>
+            <field name="nipt">M61330025D</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">30/01/2026</field>
+            <field name="email">hello@strivify.co.uk</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m62610804j" model="tech.company">
+            <field name="name">02BUSINESS</field>
+            <field name="nipt">M62610804J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2026</field>
+            <field name="email">denkertusha@hotmail.com</field>
+            <field name="phone">0682267333</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61403033a" model="tech.company">
+            <field name="name">JDK Harmony</field>
+            <field name="nipt">M61403033A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">03/02/2026</field>
+            <field name="email">jdkharmonyalbania@gmail.com</field>
+            <field name="phone">0696015364</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61323038a" model="tech.company">
+            <field name="name">FitNation</field>
+            <field name="nipt">M61323038A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">23/01/2026</field>
+            <field name="email">berlin@fitnation.al</field>
+            <field name="phone">0694071400</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409054g" model="tech.company">
+            <field name="name">THE SUITE</field>
+            <field name="nipt">M61409054G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">omurisindi@gmail.com</field>
+            <field name="phone">+355693699882</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411056j" model="tech.company">
+            <field name="name">SalusWallet shpk</field>
+            <field name="nipt">M61411056J</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">info@saluswallet.com</field>
+            <field name="phone">0688754883</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405044c" model="tech.company">
+            <field name="name">Pro Code Studio</field>
+            <field name="nipt">M61405044C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">procodestudio1@gmail.com</field>
+            <field name="phone">0693727818</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405004u" model="tech.company">
+            <field name="name">Innovagadget</field>
+            <field name="nipt">M61405004U</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">services.albania24@gmail.com</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61410048n" model="tech.company">
+            <field name="name">SKYGROUND ALBANIA</field>
+            <field name="nipt">M61410048N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2026</field>
+            <field name="email">maksen@shino.al</field>
+            <field name="phone">0042060345</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412025i" model="tech.company">
+            <field name="name">SELLYT</field>
+            <field name="nipt">M61412025I</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">gama@impresa.al</field>
+            <field name="phone">0694646574</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61412018c" model="tech.company">
+            <field name="name">Global Trade &amp; Transport</field>
+            <field name="nipt">M61412018C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">12/02/2026</field>
+            <field name="email">aplikime80@gmail.com</field>
+            <field name="phone">0684045566</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411055b" model="tech.company">
+            <field name="name">Kresha North Trade</field>
+            <field name="nipt">M61411055B</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">nik.celaj@icloud.com</field>
+            <field name="phone">0698699988</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411054q" model="tech.company">
+            <field name="name">PE.FIN</field>
+            <field name="nipt">M61411054Q</field>
+            <field name="city">tirane</field>
+            <field name="legal_form"></field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411038l" model="tech.company">
+            <field name="name">LORD FOOD</field>
+            <field name="nipt">M61411038L</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">admin@bsrconsulting.org</field>
+            <field name="phone">0699693393</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61410049v" model="tech.company">
+            <field name="name">STUDIO RAAL LLC</field>
+            <field name="nipt">M61410049V</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2026</field>
+            <field name="email">aldokasaj@outlook.com</field>
+            <field name="phone">0692176141</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411034c" model="tech.company">
+            <field name="name">VOLTIX</field>
+            <field name="nipt">M61411034C</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">alfa@impresa.al</field>
+            <field name="phone">0694646574</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61411057r" model="tech.company">
+            <field name="name">DECON - Al</field>
+            <field name="nipt">M61411057R</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">Dege/Zyre</field>
+            <field name="registration_date">11/02/2026</field>
+            <field name="email">decon.elektrik@gmail.com, artatabaku@yahoo.com</field>
+            <field name="phone">+355692753605</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61409068a" model="tech.company">
+            <field name="name">MASTLA</field>
+            <field name="nipt">M61409068A</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">09/02/2026</field>
+            <field name="email">info@lenis.al</field>
+            <field name="phone">0682027996</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61410024n" model="tech.company">
+            <field name="name">UP LAVORO ALBANIA SH.P.K</field>
+            <field name="nipt">M61410024N</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">10/02/2026</field>
+            <field name="email">ervinpodgorica@gmail.com</field>
+            <field name="phone">0697988002</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61406041g" model="tech.company">
+            <field name="name">MP360</field>
+            <field name="nipt">M61406041G</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">06/02/2026</field>
+            <field name="email">info@manpower.al</field>
+            <field name="phone">0696116007</field>
+            <field name="data_source">qkb</field>
+        </record>
+
+        <record id="company_m61405033k" model="tech.company">
+            <field name="name">Peak Management Spv</field>
+            <field name="nipt">M61405033K</field>
+            <field name="city">tirane</field>
+            <field name="legal_form">SHPK</field>
+            <field name="registration_date">05/02/2026</field>
+            <field name="email">info@dpz.al</field>
+            <field name="phone">0686046947</field>
+            <field name="data_source">qkb</field>
+        </record>
+    </data>
+</odoo>
