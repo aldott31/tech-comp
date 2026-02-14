@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- List View -->
+    <record id="tech_company_view_tree" model="ir.ui.view">
+        <field name="name">tech.company.list</field>
+        <field name="model">tech.company</field>
+        <field name="arch" type="xml">
+            <list string="Tech Companies">
+                <field name="name"/>
+                <field name="nipt"/>
+                <field name="city"/>
+                <field name="legal_form"/>
+                <field name="is_tech" widget="boolean_toggle"/>
+                <field name="email"/>
+                <field name="phone"/>
+                <field name="has_coordinates" widget="boolean_toggle"/>
+                <field name="last_scraped"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="tech_company_view_form" model="ir.ui.view">
+        <field name="name">tech.company.form</field>
+        <field name="model">tech.company</field>
+        <field name="arch" type="xml">
+            <form string="Tech Company">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Company Name" required="1"/>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group string="General Information">
+                            <field name="nipt"/>
+                            <field name="legal_form"/>
+                            <field name="registration_date"/>
+                            <field name="city"/>
+                            <field name="category"/>
+                            <field name="data_source"/>
+                        </group>
+                        <group string="Contact">
+                            <field name="email" widget="email"/>
+                            <field name="phone" widget="phone"/>
+                            <field name="website" widget="url"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Activity">
+                            <group>
+                                <field name="is_tech" widget="boolean_toggle"/>
+                                <field name="activity_description" placeholder="Objekti i aktivitetit from QKB..."/>
+                            </group>
+                        </page>
+                        <page string="Location">
+                            <group>
+                                <group string="Address">
+                                    <field name="address"/>
+                                </group>
+                                <group string="GPS Coordinates">
+                                    <field name="latitude"/>
+                                    <field name="longitude"/>
+                                    <field name="has_coordinates"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Notes">
+                            <field name="notes" placeholder="Internal notes..."/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="tech_company_view_search" model="ir.ui.view">
+        <field name="name">tech.company.search</field>
+        <field name="model">tech.company</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" string="Company"/>
+                <field name="nipt"/>
+                <field name="city"/>
+                <field name="email"/>
+                <filter name="filter_is_tech" string="Tech Companies" domain="[('is_tech', '=', True)]"/>
+                <filter name="filter_has_coordinates" string="Has GPS" domain="[('has_coordinates', '=', True)]"/>
+                <filter name="filter_has_email" string="Has Email" domain="[('email', '!=', False)]"/>
+                <separator/>
+                <group expand="0" string="Group By">
+                    <filter name="group_by_city" string="City" context="{'group_by': 'city'}"/>
+                    <filter name="group_by_category" string="Category" context="{'group_by': 'category'}"/>
+                    <filter name="group_by_legal_form" string="Legal Form" context="{'group_by': 'legal_form'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="tech_company_action" model="ir.actions.act_window">
+        <field name="name">Tech Companies</field>
+        <field name="res_model">tech.company</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                No tech companies yet!
+            </p>
+            <p>
+                Run the scraper or import data to populate the map.
+            </p>
+        </field>
+    </record>
+
+    <!-- Menu -->
+    <menuitem id="menu_tech_map_root"
+        name="Tech Map"
+        sequence="10"/>
+
+    <menuitem id="menu_tech_companies"
+        name="Companies"
+        parent="menu_tech_map_root"
+        action="tech_company_action"
+        sequence="10"/>
+
+    <menuitem id="menu_tech_map_tools"
+        name="Tools"
+        parent="menu_tech_map_root"
+        sequence="20"/>
+
+</odoo>

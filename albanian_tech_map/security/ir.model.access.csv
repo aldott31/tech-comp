@@ -1,9 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_tech_company_public,tech.company.public,model_tech_company,base.group_public,1,0,0,0
-access_tech_company_portal,tech.company.portal,model_tech_company,base.group_portal,1,0,0,0
-access_tech_company_user,tech.company.user,model_tech_company,group_tech_map_user,1,0,0,0
-access_tech_company_manager,tech.company.manager,model_tech_company,group_tech_map_manager,1,1,1,1
-access_tech_company_admin,tech.company.admin,model_tech_company,base.group_system,1,1,1,1
-access_tech_company_scraper_user,tech.company.scraper.user,model_tech_company_scraper,group_tech_map_user,1,0,0,0
-access_tech_company_scraper_manager,tech.company.scraper.manager,model_tech_company_scraper,group_tech_map_manager,1,1,1,0
-access_tech_company_scraper_admin,tech.company.scraper.admin,model_tech_company_scraper,base.group_system,1,1,1,1
