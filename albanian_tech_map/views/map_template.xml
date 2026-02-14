@@ -28,11 +28,11 @@
                                     <i class="fa fa-map-marker text-primary"/> Harta e Kompanive IT / Digjitale në Shqipëri
                                 </h1>
                                 <p class="text-muted mb-0">
-                                    <span class="badge badge-info"><t t-esc="company_count"/> kompani</span>
-                                    <span class="ml-2 small">Përditësuar automatikisht çdo 24 orë</span>
+                                    <span class="badge bg-info"><t t-esc="company_count"/> kompani</span>
+                                    <span class="ms-2 small">Përditësuar automatikisht çdo 24 orë</span>
                                 </p>
                             </div>
-                            <div class="col-md-4 text-right">
+                            <div class="col-md-4 text-end">
                                 <div class="btn-group" role="group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary" id="filter-all">
                                         <i class="fa fa-globe"/> Të gjitha
@@ -78,7 +78,7 @@
                                     <i class="fa fa-info-circle"/> Të dhënat mbledhhen automatikisht nga biznes.al, niptgov.al dhe burime të tjera
                                 </small>
                             </div>
-                            <div class="col-md-6 text-right">
+                            <div class="col-md-6 text-end">
                                 <small class="text-muted">
                                     <a href="/techmap/api/companies" target="_blank">
                                         <i class="fa fa-code"/> API

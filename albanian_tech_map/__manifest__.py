@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Albanian Tech Map',
-    'version': '17.0.1.0.0',
+    'version': '18.0.1.0.0',
     'category': 'Website',
     'summary': 'Interactive map of Albanian IT companies in Tirane',
     'description': """
-Albanian Tech Map - Odoo 17 Module
+Albanian Tech Map - Odoo 18 Module
 ==================================
 Automatic scraping of IT companies from QKB (Albanian Business Registry),
 filtered to Tirane district only, with daily cron updates.

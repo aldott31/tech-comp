@@ -34,6 +34,7 @@ sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', buffering=1)
 sys.stderr = os.fdopen(sys.stderr.fileno(), 'w', buffering=1)
 
 import time
+import random
 import logging
 from datetime import datetime
 
@@ -166,19 +167,21 @@ CITY_MAP = {
 # CHROME DRIVER
 # =============================================================================
 def start_driver():
+    # MINIMAL config - same as working test script
     opts = Options()
     opts.add_argument("--headless")
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
-    opts.add_argument("--disable-gpu")
-    opts.add_argument("--window-size=1920,1080")
-    opts.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
 
     import shutil
     chromedriver = shutil.which('chromedriver') or '/usr/local/bin/chromedriver'
     svc = Service(chromedriver)
     driver = webdriver.Chrome(service=svc, options=opts)
-    _logger.info(f"[OK] Chrome started with {chromedriver}")
+
+    # Set page load timeout (15 seconds - same as working test)
+    driver.set_page_load_timeout(15)
+
+    _logger.info(f"[OK] Chrome started (minimal config, 15s timeout)")
     return driver
 
 
@@ -188,8 +191,17 @@ def start_driver():
 def search_qkb_activity(driver, keyword, legal_form='', date_from=None, date_to=None):
     """Search QKB by activity field. Returns list of {nipt, name, city, legal_form, registration_date}."""
     try:
-        driver.get(QKB_SEARCH_URL)
-        time.sleep(3)
+        _logger.info(f"[DEBUG] About to load page for keyword='{keyword}', legal_form='{legal_form}'")
+        try:
+            _logger.info(f"[DEBUG] Calling driver.get({QKB_SEARCH_URL})")
+            driver.get(QKB_SEARCH_URL)
+            _logger.info(f"[DEBUG] Page loaded successfully!")
+        except Exception as e:
+            _logger.warning(f"Page load timeout or error: {e}")
+            return []  # Skip this search if page won't load
+
+        # Longer random delay to avoid bot detection (5-8 seconds)
+        time.sleep(random.uniform(5, 8))
 
         # Set date range
         if date_from and date_to:
@@ -205,9 +217,9 @@ def search_qkb_activity(driver, keyword, legal_form='', date_from=None, date_to=
             loc = driver.find_element(By.CSS_SELECTOR, 'div[data-bs-target="#locationCollapse"]')
             if loc.get_attribute('aria-expanded') != 'true':
                 driver.execute_script("arguments[0].scrollIntoView(true);", loc)
-                time.sleep(0.5)
+                time.sleep(random.uniform(1, 2))  # Random delay 1-2 seconds
                 loc.click()
-                time.sleep(1)
+                time.sleep(random.uniform(2, 3))  # Random delay 2-3 seconds
             Select(driver.find_element(By.CSS_SELECTOR, 'select#qarku')).select_by_value('tirane')
         except Exception as e:
             _logger.warning(f"qarku: {e}")
@@ -220,36 +232,48 @@ def search_qkb_activity(driver, keyword, legal_form='', date_from=None, date_to=
                 pass
 
         # Open activity section and enter keyword
+        _logger.info(f"[DEBUG] Opening activity section...")
         driver.execute_script("""
             var btn = document.querySelector('div[data-bs-target="#sectorCollapse"]');
             if (btn && btn.getAttribute('aria-expanded') !== 'true') btn.click();
         """)
         time.sleep(1)
 
+        _logger.info(f"[DEBUG] Looking for activity input field...")
         inp = None
         for s in ['#sektoriIVeprimtarise', 'input[name="sektoriIVeprimtarise"]']:
             try:
                 el = driver.find_element(By.CSS_SELECTOR, s)
+                _logger.info(f"[DEBUG] Found element with selector '{s}', displayed={el.is_displayed()}")
                 if el.is_displayed():
                     inp = el
                     break
-            except:
+            except Exception as ex:
+                _logger.info(f"[DEBUG] Selector '{s}' not found: {ex}")
                 continue
         if not inp:
+            _logger.warning(f"[DEBUG] Activity input field NOT FOUND, skipping search")
             return []
 
+        _logger.info(f"[DEBUG] Entering keyword '{keyword}'...")
         inp.clear()
         inp.send_keys(keyword)
+        _logger.info(f"[DEBUG] Clicking submit button...")
         btn = driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
         driver.execute_script("arguments[0].click();", btn)
-        time.sleep(3)
+        _logger.info(f"[DEBUG] Waiting for results...")
+        time.sleep(5)  # Increased wait time from 3 to 5 seconds
 
         # Collect results from all pages
         companies = []
         page = 1
         while page <= 10:
             results = driver.find_elements(By.CSS_SELECTOR, 'ul.list li .card.responsive-card-text')
+            _logger.info(f"[DEBUG] Found {len(results)} result cards on page {page}")
             if not results:
+                # Try to debug why no results
+                html_snippet = driver.execute_script("return document.body.innerHTML.substring(0, 500)")
+                _logger.warning(f"[DEBUG] No results found. Page HTML starts with: {html_snippet[:200]}")
                 break
             for r in results:
                 try:
@@ -493,7 +517,8 @@ def main():
                     if search_count % 10 == 0:
                         conn.commit()
 
-                    time.sleep(1.5)
+                    # Random delay between searches to avoid rate limiting (3-5 seconds)
+                    time.sleep(random.uniform(3, 5))
 
             # Progress every keyword
             conn.commit()

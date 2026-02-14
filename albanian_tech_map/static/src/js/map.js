@@ -151,8 +151,8 @@
             item.innerHTML = `
                 <div class="company-name">${escapeHtml(company.name)}</div>
                 <div class="company-meta">
-                    <span class="badge badge-info">${escapeHtml(company.category)}</span>
-                    ${company.city ? `<span class="badge badge-secondary">${escapeHtml(company.city)}</span>` : ''}
+                    <span class="badge bg-info">${escapeHtml(company.category)}</span>
+                    ${company.city ? `<span class="badge bg-secondary">${escapeHtml(company.city)}</span>` : ''}
                 </div>
             `;
 

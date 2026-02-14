@@ -11,7 +11,7 @@
                     <button name="action_run_scraping_job"
                             type="object"
                             string="Run QKB Scraping Now"
-                            class="oe_highlight"
+                            class="btn-primary"
                             icon="fa-refresh"
                             confirm="This will scrape QKB for IT companies in Tirane. It runs in background. Continue?"/>
                 </header>
@@ -31,7 +31,7 @@
                         </group>
                     </group>
 
-                    <group string="Log" invisible="not status_log">
+                    <group string="Log" invisible="status_log == False">
                         <field name="status_log" readonly="1" nolabel="1"/>
                     </group>
 

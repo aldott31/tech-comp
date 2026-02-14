@@ -1,4 +1,4 @@
-# Albanian Tech Map - Odoo 17 Module
+# Albanian Tech Map - Odoo 18 Module
 
 Interactive map of IT and digital companies in Albania, powered by automated scraping from the Albanian Business Registry (QKB).
 
@@ -21,7 +21,7 @@ Interactive map of IT and digital companies in Albania, powered by automated scr
 
 ## Requirements
 
-- **Odoo 17** Community or Enterprise Edition
+- **Odoo 18** Community or Enterprise Edition
 - **Docker** (recommended) — the scraper needs Chrome/ChromeDriver
 - **PostgreSQL 12+**
 
@@ -44,12 +44,14 @@ The scraper uses Selenium with headless Chrome. Install everything with the incl
 docker exec -u root YOUR_CONTAINER bash /mnt/custom-addons/albanian_tech_map/scripts/install_deps.sh
 ```
 
-Replace `YOUR_CONTAINER` with your Odoo container name (e.g., `o17-odoo-1`).
+Replace `YOUR_CONTAINER` with your Odoo container name (e.g., `odoo18`).
 
-This installs:
-- Google Chrome (stable)
-- ChromeDriver (auto-matched to Chrome version)
-- Python packages: `selenium`, `beautifulsoup4`, `lxml`, `geopy`
+**What gets installed:**
+- ✅ Google Chrome (stable, auto-versioned)
+- ✅ ChromeDriver (auto-matched to Chrome version)
+- ✅ Python packages: `selenium==4.40.0`, `beautifulsoup4`, `lxml`, `geopy`, `psycopg2-binary`
+
+**Note:** The script handles Python 3.12+ externally-managed-environment automatically using `--break-system-packages`.
 
 ### 3. Install the Odoo Module
 
@@ -73,18 +75,66 @@ Features:
 
 ### Running the Scraper
 
-**From Odoo UI:**
-1. Go to **Tech Map > Tools > Run Scraper**
-2. Click **"Run QKB Scraper"**
-3. Monitor progress: `docker exec YOUR_CONTAINER tail -f /tmp/scraper.log`
+#### **Option 1: From Odoo UI** (Recommended)
+1. Go to **Tech Map → Tools → Run QKB Scraper**
+2. Click **"Run QKB Scraping Now"**
+3. The system will check dependencies automatically
+4. If dependencies are missing, follow the on-screen instructions
+5. If everything is OK, scraper will start in background
 
-**From command line:**
+#### **Option 2: From Command Line**
 ```bash
+# Run scraper in background
 docker exec -d YOUR_CONTAINER python3 /mnt/custom-addons/albanian_tech_map/scripts/run_scraper_docker.py
+
+# Monitor logs (real-time)
+docker exec YOUR_CONTAINER tail -f /tmp/scraper.log
+
+# Check last 50 lines of logs
+docker exec YOUR_CONTAINER tail -50 /tmp/scraper.log
 ```
 
-**Automatically (cron):**
-The module creates a scheduled action that runs every 24 hours.
+Replace `YOUR_CONTAINER` with your container name (e.g., `odoo18`).
+
+#### **Option 3: Automatic (Cron)**
+The module creates a scheduled action that runs every 24 hours automatically.
+
+---
+
+### Stopping the Scraper
+
+If you need to stop a running scraper:
+
+```bash
+# Stop the scraper process
+docker exec YOUR_CONTAINER pkill -f run_scraper_docker.py
+
+# Verify it stopped (should return no results)
+docker exec YOUR_CONTAINER ps aux | grep run_scraper_docker.py
+```
+
+**Note:** The scraper runs in the background, so stopping it won't affect your Odoo instance.
+
+---
+
+### Quick Reference Commands
+
+```bash
+# Install dependencies (first time only)
+docker exec -u root YOUR_CONTAINER bash /mnt/custom-addons/albanian_tech_map/scripts/install_deps.sh
+
+# Run scraper manually
+docker exec -d YOUR_CONTAINER python3 /mnt/custom-addons/albanian_tech_map/scripts/run_scraper_docker.py
+
+# Monitor logs (real-time)
+docker exec YOUR_CONTAINER tail -f /tmp/scraper.log
+
+# Stop scraper
+docker exec YOUR_CONTAINER pkill -f run_scraper_docker.py
+
+# Check if scraper is running
+docker exec YOUR_CONTAINER ps aux | grep run_scraper_docker.py
+```
 
 ### API Endpoints
 
@@ -194,25 +244,266 @@ To change the scraping schedule:
 
 ## Troubleshooting
 
-### Scraper won't start
-- Verify Chrome is installed: `docker exec YOUR_CONTAINER google-chrome-stable --version`
-- Verify ChromeDriver: `docker exec YOUR_CONTAINER chromedriver --version`
-- Re-run `install_deps.sh` if needed
+### Dependencies Missing Error
+If you see "Dependencies Missing" notification when running the scraper:
 
-### No companies appearing in the map
+```bash
+# Install all dependencies
+docker exec -u root YOUR_CONTAINER bash /mnt/custom-addons/albanian_tech_map/scripts/install_deps.sh
+
+# Verify installation
+docker exec YOUR_CONTAINER google-chrome-stable --version
+docker exec YOUR_CONTAINER chromedriver --version
+docker exec YOUR_CONTAINER python3 -c "import selenium; print('Selenium OK')"
+```
+
+### Scraper Won't Start
+```bash
+# Check if dependencies are installed
+docker exec YOUR_CONTAINER google-chrome-stable --version
+docker exec YOUR_CONTAINER chromedriver --version
+
+# Check if script exists
+docker exec YOUR_CONTAINER ls -la /mnt/custom-addons/albanian_tech_map/scripts/
+
+# Try running manually to see errors
+docker exec YOUR_CONTAINER python3 /mnt/custom-addons/albanian_tech_map/scripts/run_scraper_docker.py
+```
+
+### Check Scraper Status
+```bash
+# Is scraper running?
+docker exec YOUR_CONTAINER ps aux | grep run_scraper_docker.py
+
+# View logs (last 50 lines)
+docker exec YOUR_CONTAINER tail -50 /tmp/scraper.log
+
+# Monitor logs in real-time
+docker exec YOUR_CONTAINER tail -f /tmp/scraper.log
+
+# Stop scraper if needed
+docker exec YOUR_CONTAINER pkill -f run_scraper_docker.py
+```
+
+### No Companies Appearing in Map
 - Companies need `latitude` and `longitude` values to show on the map
 - Check the API: visit `/techmap/api/companies` in your browser
-- Geocoding is not yet automated — coordinates can be added manually in the admin
+- Check all companies (with/without coords): `/techmap/api/companies/all`
+- Geocoding is not automated — coordinates must be added manually in the admin
 
-### Module won't install
+### Module Won't Install
 - Make sure the addons path includes your custom addons directory
-- Check Odoo logs for specific error messages
-- The module only requires `requests` as a Python dependency (Chrome/Selenium are only needed for the scraper script)
+- Check Odoo logs for specific error messages: `docker logs YOUR_CONTAINER`
+- The module only requires `requests` as a Python dependency
+- Chrome/Selenium are only needed for the scraper script, not the module itself
 
-### Scraper log
+### Container Name
+Find your container name:
 ```bash
-docker exec YOUR_CONTAINER tail -f /tmp/scraper.log
+docker ps --format "table {{.Names}}\t{{.Status}}"
 ```
+
+---
+
+## Advanced Troubleshooting: Scraper Stuck or Not Finding Results
+
+If the scraper starts but gets stuck without finding companies, here's the debugging process we used:
+
+### Symptom: Scraper Logs Show "Searches planned" but No Results
+
+**Logs show:**
+```
+INFO - Searches planned: 4560
+INFO - Loaded 2021 existing NIPTs from database
+(then nothing...)
+```
+
+### Step 1: Clean State - Restart Container
+
+Sometimes Chrome processes get stuck. Restart for a clean state:
+
+```bash
+# Kill any stuck processes
+docker exec YOUR_CONTAINER bash -c "pkill -9 chrome; pkill -9 chromedriver; pkill -f run_scraper_docker.py"
+
+# Restart container completely
+docker restart YOUR_CONTAINER
+
+# Wait for container to be ready
+sleep 15 && docker exec YOUR_CONTAINER echo "Container ready"
+```
+
+### Step 2: Minimal Test - Verify Chrome Works
+
+Create a minimal test to verify Chrome can load the QKB page:
+
+```bash
+docker exec YOUR_CONTAINER bash -c "cat > /tmp/test_chrome.py << 'EOF'
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+import time
+
+opts = Options()
+opts.add_argument('--headless')
+opts.add_argument('--no-sandbox')
+opts.add_argument('--disable-dev-shm-usage')
+
+driver = webdriver.Chrome(service=Service('/usr/local/bin/chromedriver'), options=opts)
+driver.set_page_load_timeout(15)
+
+print('Loading page...')
+try:
+    start = time.time()
+    driver.get('https://format.qkb.gov.al/kerko-per-subjekt/')
+    elapsed = time.time() - start
+    print(f'Page loaded in {elapsed:.2f}s')
+    print(f'Title: {driver.title}')
+except Exception as e:
+    print(f'ERROR: {e}')
+finally:
+    driver.quit()
+EOF
+python3 /tmp/test_chrome.py"
+```
+
+**Expected output:**
+```
+Loading page...
+Page loaded in 2.03s
+Title: Kërko Për Subjekt
+```
+
+✅ If this works, Chrome is OK - problem is in the scraper script logic.
+❌ If this fails, Chrome/network has issues.
+
+### Step 3: Check QKB Page Structure
+
+QKB might have changed their HTML structure. Verify selectors still exist:
+
+```bash
+# Fetch current page
+docker exec YOUR_CONTAINER curl -s 'https://format.qkb.gov.al/kerko-per-subjekt/' > /tmp/qkb_page.html
+
+# Check critical selectors
+docker exec YOUR_CONTAINER bash -c "grep -o 'id=\"sektoriIVeprimtarise\"' /tmp/qkb_page.html"  # Activity field
+docker exec YOUR_CONTAINER bash -c "grep -o 'id=\"qarku\"' /tmp/qkb_page.html"  # City dropdown
+docker exec YOUR_CONTAINER bash -c "grep -o 'data-bs-target=\"#locationCollapse\"' /tmp/qkb_page.html"  # Location section
+```
+
+**All selectors should return results.** If not, QKB changed their HTML and the scraper needs updating.
+
+### Step 4: Add Debug Logging
+
+Add detailed logging to see exactly where the scraper gets stuck:
+
+Edit `/mnt/custom-addons/albanian_tech_map/scripts/run_scraper_docker.py` and add these logging lines in the `search_qkb_activity()` function:
+
+```python
+def search_qkb_activity(driver, keyword, legal_form='', date_from=None, date_to=None):
+    try:
+        _logger.info(f"[DEBUG] About to load page for keyword='{keyword}', legal_form='{legal_form}'")
+        _logger.info(f"[DEBUG] Calling driver.get({QKB_SEARCH_URL})")
+        driver.get(QKB_SEARCH_URL)
+        _logger.info(f"[DEBUG] Page loaded successfully!")
+
+        # ... existing code ...
+
+        _logger.info(f"[DEBUG] Opening activity section...")
+        # collapse opening code
+
+        _logger.info(f"[DEBUG] Looking for activity input field...")
+        inp = driver.find_element(By.CSS_SELECTOR, '#sektoriIVeprimtarise')
+        _logger.info(f"[DEBUG] Found element with selector '#sektoriIVeprimtarise', displayed={inp.is_displayed()}")
+
+        _logger.info(f"[DEBUG] Entering keyword '{keyword}'...")
+        inp.clear()
+        inp.send_keys(keyword)
+
+        _logger.info(f"[DEBUG] Clicking submit button...")
+        btn = driver.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
+        driver.execute_script("arguments[0].click();", btn)
+
+        _logger.info(f"[DEBUG] Waiting for results...")
+        time.sleep(5)  # IMPORTANT: Was 3, changed to 5
+
+        # ... results collection ...
+
+        results = driver.find_elements(By.CSS_SELECTOR, 'ul.list li .card.responsive-card-text')
+        _logger.info(f"[DEBUG] Found {len(results)} result cards on page {page}")
+```
+
+### Step 5: The Fix - Increase Wait Time
+
+**Root Cause:** After clicking submit, QKB needs more than 3 seconds to load results.
+
+**Solution:** Change the wait time from 3 to 5 seconds:
+
+```python
+# Before:
+time.sleep(3)  # After submit
+
+# After:
+time.sleep(5)  # Increased wait time - QKB needs 5s to load results
+```
+
+**Location:** Line ~265 in `run_scraper_docker.py`, right after clicking the submit button.
+
+### Step 6: Verify the Fix
+
+Start the scraper and check logs:
+
+```bash
+# Start scraper
+docker exec YOUR_CONTAINER bash -c "nohup python3 -u /mnt/custom-addons/albanian_tech_map/scripts/run_scraper_docker.py > /tmp/scraper.log 2>&1 &"
+
+# Wait 20 seconds then check logs
+sleep 20 && docker exec YOUR_CONTAINER tail -50 /tmp/scraper.log
+```
+
+**Expected logs (working):**
+```
+INFO - [DEBUG] Clicking submit button...
+INFO - [DEBUG] Waiting for results...
+INFO - [DEBUG] Found 10 result cards on page 1
+INFO - [DEBUG] Found 10 result cards on page 2
+INFO - [DEBUG] Found 6 result cards on page 3
+```
+
+✅ **Success:** Scraper is finding results and paginating through pages!
+
+### Why Results Aren't Saving
+
+If the scraper finds results but doesn't show "saved" messages:
+
+**This is normal!** The scraper only logs when NEW companies are found. If all companies already exist in the database (loaded at startup: "Loaded 2021 existing NIPTs"), the scraper correctly skips duplicates.
+
+Check the code at line ~514:
+```python
+if new_in_batch > 0:
+    _logger.info(f"[{search_count}/{total}] '{keyword}' [...]: +{new_in_batch}")
+```
+
+**To verify database is updating:**
+```bash
+docker exec YOUR_CONTAINER python3 -c "import psycopg2; conn = psycopg2.connect(host='db', port=5432, user='odoo', password='odoo', dbname='odoo'); cur = conn.cursor(); cur.execute('SELECT COUNT(*) FROM tech_company'); print(f'Total companies: {cur.fetchone()[0]}'); conn.close()"
+```
+
+### Summary of Common Issues
+
+| Issue | Cause | Fix |
+|-------|-------|-----|
+| Scraper stuck at "Searches planned" | QKB page needs more time to load results | Increase `time.sleep(3)` to `time.sleep(5)` after submit |
+| Chrome crashes (exit -5) | Odoo RLIMIT_AS kills Chrome | Use standalone script (already implemented) |
+| No results found | QKB HTML structure changed | Verify selectors with curl + grep |
+| "Saved" messages not showing | All companies are duplicates | Check database count - duplicates are correctly skipped |
+| Page won't load | Network/firewall blocking QKB | Test with minimal Chrome script |
+
+### Clean Up Debug Logging
+
+Once the scraper is working, you can remove the `[DEBUG]` logging lines to reduce log noise.
+
+---
 
 ## License
 
